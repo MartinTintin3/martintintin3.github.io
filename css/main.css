@@ -10,3 +10,14 @@ body > * {
 #title {
 	font-family: "Source Code Pro", monospace;
 }
+
+#test {
+	color: white;
+	transition: all 1s;
+	display: inline;
+}
+
+#test:hover {
+	color: red;
+	transition: all 1s;
+}
