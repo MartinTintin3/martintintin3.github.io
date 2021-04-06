@@ -1,0 +1,12 @@
+body {
+	background-color: rgb(38, 38, 38);
+	text-align: center;
+}
+
+body > * {
+	color: white;
+}
+
+#title {
+	font-family: "Source Code Pro", monospace;
+}
