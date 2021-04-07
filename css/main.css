@@ -11,13 +11,49 @@ body > * {
 	font-family: "Source Code Pro", monospace;
 }
 
-#test {
-	color: white;
-	transition: all 1s;
-	display: inline;
+.project-group {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
 }
 
-#test:hover {
-	color: red;
-	transition: all 1s;
+.project {
+	width: 13em;
+	height: 8.5em;
+	border-radius: 20px;
+	margin: 1em;
+	background-image: url("../assets/project-test.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+	background-size: 150%;
+	background-blend-mode: overlay;
+	transition: all 0.3s;
+	align-self: center;
+	text-align: center;
+	position: relative;
+	background-clip: border-box;
+}
+
+.project:hover {
+	width: 13.5em;
+	height: 9em;
+	margin: 0.75em;
+	transition: all 0.3s;
+}
+
+.project p {
+	display: block;
+	/* padding-top: calc(30% - 1em); */
+
+	bottom: 0px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 0 47%;
+	transition: padding 0.3s;
+}
+
+.project:hover p {
+	padding: 0 47.1%;
+	transition: padding 0.3s;
 }
