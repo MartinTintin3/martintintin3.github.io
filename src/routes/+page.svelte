@@ -18,6 +18,12 @@
 	title="FloWrestling Stats"
 	link={base_url + "/flo-stats"}
 	description="A tool to calculate wrestling statistics like your win-to-loss ratio" />
+
+	<Project
+	image_url="/projects/snake.png"
+	title="Snake"
+	link={base_url + "/snake"}
+	description="Simple snake game (I was bored)" />
 </div>
 
 <style>
@@ -36,4 +42,10 @@
 		flex-wrap: wrap;
 		gap: 20px;
 	}
+
+	/*:global(.projects > *) {
+		flex-grow: 0;
+		flex-shrink: 1;
+		flex-basis: 40%;
+	}*/
 </style>

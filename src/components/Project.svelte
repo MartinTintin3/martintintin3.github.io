@@ -47,20 +47,11 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 15px;
+        gap: 10px;
     }
 
     .project .project-title {
         font-size: 20px;
         font-weight: bold;
-    }
-
-    :global(.project a), :global(.project a)::after {
-        color: rgb(23, 28, 189);
-        text-decoration: none;
-    }
-
-    :global(.project a):hover {
-        text-decoration: underline;
     }
 </style>
