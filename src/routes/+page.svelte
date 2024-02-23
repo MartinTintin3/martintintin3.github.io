@@ -4,7 +4,7 @@
 	const base_url = "https://martintm.dev";
 </script>
 
-<h1>Some of my stuff</h1>
+<h1 class="title">Some of my stuff</h1>
 
 <div class="projects">
 	<Project
@@ -24,6 +24,11 @@
 	* {
 		text-align: left;
 		margin: 0;
+	}
+	
+	.title {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 	.projects {
