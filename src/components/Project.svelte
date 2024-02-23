@@ -1,26 +1,66 @@
 <script>
     /** @type {string} */
-    export let background_url;
+    export let image_url;
     /** @type {string} */
     export let title;
-    /** @type {string} */
-    export let description;
+    /** @type {string | undefined} */
+    export let description = undefined;
     /** @type {string} */
     export let link;
 </script>
 
 <div class="project">
-    <h2>{title}</h2>
-    <p>{description}</p>
-    <a href={link}>View project</a>
+    <img class="project-img" src="{image_url}" alt="{title}">
+    <div class="project-info">
+        <a href={link} target="_black" class="project-title">{title}</a>
+        <div class="project-description">
+            {#if description}
+                {description}
+            {:else}
+                <slot />
+            {/if}
+        </div>
+    </div>
 </div>
 
 <style>
     .project {
-        background: url({background_url});
-        background-size: cover;
+        text-align: center;
         padding: 20px;
-        border-radius: 5px;
-        border: 1px solid #000;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 2px solid #000;
+        display: inline-flex;
+        width: 400px;
+    }
+
+    .project .project-img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        border: 0.5px solid black;
+    }
+
+    .project .project-info {
+        text-align: left;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .project .project-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    :global(.project a), :global(.project a)::after {
+        color: rgb(23, 28, 189);
+        text-decoration: none;
+    }
+
+    :global(.project a):hover {
+        text-decoration: underline;
     }
 </style>
