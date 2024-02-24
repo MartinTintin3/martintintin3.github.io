@@ -24,6 +24,13 @@
 	title="Snake"
 	link={base_url + "/snake"}
 	description="Simple snake game (I was bored)" />
+
+	<Project
+	image_url={base_url + "/game-of-life/favicon.png"}
+	title="Conway's Game of Life"
+	link={base_url + "/game-of-life"}>
+	A cellular automation created by <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">John Horton Conway</a>
+	</Project>
 </div>
 
 <style>
