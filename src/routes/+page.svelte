@@ -1,5 +1,6 @@
 <script>
 	import Project from '../components/Project.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	const base_url = "https://martintm.dev";
 </script>
@@ -32,6 +33,8 @@
 	A cellular automation created by <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">John Horton Conway</a>
 	</Project>
 </div>
+
+<Footer />
 
 <style>
 	* {
