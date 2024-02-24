@@ -32,6 +32,12 @@
 	link={base_url + "/game-of-life"}>
 	A cellular automation created by <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">John Horton Conway</a>
 	</Project>
+
+	<Project
+	image_url={base_url + "/random-math-game/favicon.png"}
+	title="Random Math Game"
+	link={base_url + "/random-math-game"}
+	description="A board game one of my math teachers showed me" />
 </div>
 
 <Footer />
