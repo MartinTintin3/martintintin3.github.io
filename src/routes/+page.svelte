@@ -40,7 +40,7 @@
 	description="A board game one of my math teachers showed me" />
 
 	<Project
-	image_url={base_url + "/flappy-bird-ai/favicon.png"}
+	image_url="/projects/flappy-bird-ai.png"
 	title="Flappy Bird AI"
 	link={base_url + "/flappy-bird-ai"}
 	description="Neural network trains itself to play Flappy Bird" />
