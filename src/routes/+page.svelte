@@ -38,6 +38,12 @@
 	title="Random Math Game"
 	link={base_url + "/random-math-game"}
 	description="A board game one of my math teachers showed me" />
+
+	<Project
+	image_url={base_url + "/flappy-bird-ai/favicon.png"}
+	title="Flappy Bird AI"
+	link={base_url + "/flappy-bird-ai"}
+	description="Neural network trains itself to play Flappy Bird" />
 </div>
 
 <Footer />
