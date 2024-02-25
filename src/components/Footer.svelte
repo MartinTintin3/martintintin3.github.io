@@ -20,6 +20,6 @@
 		width: 100%;
 		background-color: #f0f0f0;
 		text-align: center;
-		padding: 10px;
+		padding: 10px 0px;
 	}
 </style>
