@@ -44,6 +44,12 @@
 	title="Flappy Bird AI"
 	link={base_url + "/flappy-bird-ai"}
 	description="Neural network trains itself to play Flappy Bird" />
+
+	<Project
+	image_url="/projects/wavefront-propagation.png"
+	title="Wavefront Propagation Algorithm"
+	link={base_url + "/wavefront-propagation"}
+	description="A grid-based pathfinding algorithm" />
 </div>
 
 <Footer />
