@@ -18,7 +18,7 @@
 	image_url="/projects/flo-stats.png"
 	title="FloWrestling Stats"
 	link={base_url + "/flo-stats"}
-	description="A tool to calculate wrestling statistics like your win-to-loss ratio" />
+	description="A tool to calculate wrestling statistics such as your win-to-loss ratio" />
 
 	<Project
 	image_url="/projects/snake.png"
