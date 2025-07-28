@@ -9,16 +9,16 @@
 
 <div class="projects">
 	<Project
-	image_url="/projects/brainfuck.png"
-	title="Brainfuck Interpreter"
-	link={base_url + "/brainfuck"}>
-	Simple online interpreter for the esoteric language <a href="https://en.wikipedia.org/wiki/Brainfuck" target="_blank">Brainfuck</a></Project>
-
-	<Project
 	image_url="/projects/flo-stats.png"
 	title="FloWrestling Stats"
-	link={base_url + "/flo-stats"}
+	link={"https://flostats.com"}
 	description="A tool to calculate wrestling statistics such as your win-to-loss ratio" />
+
+	<Project
+	image_url="/projects/brainfuck.png"
+	title="Brainf*ck Interpreter"
+	link={base_url + "/brainfuck"}>
+	Simple online interpreter for the esoteric language <a href="https://en.wikipedia.org/wiki/Brainfuck" target="_blank">Brainf*ck</a></Project>
 
 	<Project
 	image_url="/projects/snake.png"
