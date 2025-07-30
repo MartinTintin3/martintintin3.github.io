@@ -14,13 +14,7 @@
 	link={"https://flostats.com"}
 	description="A tool to calculate wrestling statistics such as your win-to-loss ratio" />
 
-	<Project
-	image_url="/projects/brainfuck.png"
-	title="Brainf*ck Interpreter"
-	link={base_url + "/brainfuck"}>
-	Simple online interpreter for the esoteric language <a href="https://en.wikipedia.org/wiki/Brainfuck" target="_blank">Brainf*ck</a></Project>
-
-	<Project
+<Project
 	image_url="/projects/snake.png"
 	title="Snake"
 	link={base_url + "/snake"}
